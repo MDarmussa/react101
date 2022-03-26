@@ -1,21 +1,21 @@
 module.exports = [
      {
           'name': 'Andy',
-          'Age': '1500'
+          'age': '1500'
          
      },
      {
           'name': 'Britt',
-          'Age': '10'
+          'age': '10'
      },
      {
-          'name': 'joe',
-          'Age': '1500'
+          'name': 'Joe',
+          'age': '1500'
          
      },
      {
-          'name': 'smith',
-          'Age': '787'
+          'name': 'Smith',
+          'age': '787'
          
      }
 

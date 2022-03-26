@@ -1,3 +1,47 @@
+
+setup:
+- set react devTool: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en
+
+- install react: npx create-react-app greeter-app
+https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
+          Message:
+               npm start
+               Starts the development server.
+
+               npm run build
+               Bundles the app into static files for production.
+
+               npm test
+               Starts the test runner.
+
+               npm run eject
+               Removes this tool and copies build dependencies, configuration files
+               and scripts into the app directory. If you do this, you can’t go back!
+
+               We suggest that you begin by typing:
+
+               cd greeter-app
+               npm start
+
+               Happy hacking!
+               ➜  03-26-react101 cd greeter-app 
+
+Notes:
+- Library: remade code to let up make a single page application.
+- storing javascript data in objects (variables).
+- in react: we store data in something called states.
+- in react package, we don't need npm init. 
+- react element is HTML 
+- src > app.js; never change in it, it's the controller that have the function to return the HTML elements
+- we test the app using our phone if connected with the same WIFI network through (http://192.168.1.146:3000).
+          On Your Network:  http://192.168.1.146:3000
+- when making a new file to create a new component, we need to do a pascal spelling by start 
+- components: functions that return html element
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +112,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
